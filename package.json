@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "cd Client && pm2 start --name alioral/client npm -- start && cd .. && cd Server && pm2 start --name alioral/server npx -- npm start && pm2 logs",
+    "start": "cd Client && pm2 start --name alioral/client npm -- start && cd .. && cd Server && pm2 start --name alioral/server npx -- npm start",
     "restart": "pm2 delete all && pm2 flush && npm start"
   },
   "keywords": [],
