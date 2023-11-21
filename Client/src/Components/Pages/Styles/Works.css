@@ -1,0 +1,25 @@
+ol li {
+    user-select: none;
+    cursor: pointer;
+}
+
+ul li {
+    user-select: none;
+    cursor: pointer;
+}
+
+.ListWidget ul li:nth-child(even) {
+    background-color: #ededed;
+}
+
+.ListWidget ul li:hover {
+    background-color: #ededed;
+}
+
+ol li:not(:last-child) {
+    margin-bottom: 16px;
+}
+
+ol li:hover {
+    background-color: rgb(230, 230, 230);
+}

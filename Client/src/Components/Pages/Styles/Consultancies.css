@@ -1,0 +1,56 @@
+.Consultancies {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 0.375rem;
+
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    gap: 1rem;
+}
+.Consultancies_Header {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.Consultancies_Item {
+    display: flex;
+    flex-direction: row;
+}
+
+.CI_Header {
+    width: 350px;
+    border-right: 1px solid rgba(0, 0, 0, .3);
+    padding: 1rem 0rem;
+}
+
+.CI_Header > div:last-child {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 12px;
+}
+
+.CI_Body {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+    .Consultancies_Item {
+        flex-direction: column;
+    }
+    .CI_Header {
+        width: 100%;
+        border-right: 0px solid rgba(0, 0, 0, .3);
+        padding: 1rem 0rem;
+    }
+    .CI_Body {
+        display: flex;
+        align-items: center;
+        margin-left: 0rem;
+        font-size: 14px;
+    }    
+}

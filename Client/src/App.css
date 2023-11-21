@@ -1,0 +1,25 @@
+.us-none {
+  user-select: none !important;
+  -moz-user-select: none !important;
+  -webkit-user-select: none !important;
+}
+.LoadingBG {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: static;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, #33487f, #406cdb)
+}
+
+.LoadingCardIcon {
+  animation: 2s infinite LoadingCardIcon linear;
+  transform: rotate(0deg) scale(.7);
+}
+
+@keyframes LoadingCardIcon{
+  to { 
+    transform: rotate(360deg) scale(.7);
+  }
+}

@@ -1,0 +1,24 @@
+.ProjectCard {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.ProjectDesc {
+    width: 100%;
+    position: absolute;
+    bottom: -44px;
+    border-radius: 0px 0px 4px 4px;
+    background: rgba(232, 236, 238, 0.50);
+    backdrop-filter: blur(15px);
+
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 12px 9px 15px 9px;
+    transition: all 130ms;
+}
+
+.ProjectCard:hover .ProjectDesc {
+    bottom: 0;
+}

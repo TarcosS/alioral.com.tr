@@ -1,0 +1,58 @@
+.LessonCard {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1;
+    background: linear-gradient(to bottom, #33487f, #406cdb);
+    border-radius: 4px;
+    padding: 40px 18px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    color: #FFF;
+}
+.column:nth-child(even) .LessonCard{
+    background: linear-gradient(to bottom, #406cdb, #91acf1) !important;
+}
+
+.LessonCardHeader {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.LessonCardDesc {
+    font-size: 14px;
+    margin-bottom: 28px;
+}
+
+.LessonCardBody {
+    flex-direction: column;
+}
+
+ul {
+    padding-left: 1rem;
+}
+
+li > a {
+    font-size: 12px;
+    word-wrap: break-word;
+    color: #fff;
+}
+
+.LessonsCardIcon {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 35%;
+    aspect-ratio: 1;
+}
+
+.LessonsCardMore {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+
+    position: absolute;
+    bottom: 16px;
+    cursor: pointer;
+}
+.deleteButton {
+    transition: all 200ms;
+}

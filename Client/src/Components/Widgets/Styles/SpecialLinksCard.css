@@ -1,0 +1,28 @@
+.SpecialLinksCard {
+    width: 100%;
+    aspect-ratio: 1;
+    background: linear-gradient(to bottom, #33487f, #406cdb);
+    border-radius: 4px;
+    padding: 30px 18px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    color: #FFF
+}
+
+.column:nth-child(even) .SpecialLinksCard{
+    background: linear-gradient(to bottom, #406cdb, #91acf1) !important;
+}
+
+.SpecialLinksCardHeader {
+    
+    margin-bottom: 18px;
+    font-size: 20px;
+}
+.SpecialLinksCardBody {
+    display: flex;
+    flex-direction: column;
+}
+.SpecialLinksCardBody > a {
+    font-size: 12px;
+    word-wrap: break-word;
+    color: #FFF;
+}
