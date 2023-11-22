@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm install && npm install -g pm2 --save && cd Client && npm install && pm2 start --name alioral/client npm -- start && cd .. && cd Server && npm install && pm2 start --name alioral/server npx -- npm start",
+    "start": "npm install -g pm2 --save && cd Client && npm install && pm2 start --name alioral/client npm -- start && cd .. && cd Server && npm install && pm2 start --name alioral/server npx -- npm start",
     "restart": "pm2 delete all && pm2 flush && npm start"
   },
   "keywords": [],
